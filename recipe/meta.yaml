@@ -1,4 +1,4 @@
-{% set version = "0.9.5" %}
+{% set version = "1.0.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/django-template-lsp/django_template_lsp-{{ version }}.tar.gz
-  sha256: 5c8f2e1669d58eb61e756e994ea25fb1b0ec5e65e26e83205defef78cac3f4e0
+  sha256: 43801648c488a99803a775d4c8dd324155f8e18406fc1fc3ce47260f76d53ada
 
 build:
   entry_points:
