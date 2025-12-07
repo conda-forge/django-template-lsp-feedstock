@@ -27,7 +27,7 @@ requirements:
     - setuptools
   run:
     - jedi
-    - pygls
+    - pygls <2
     - python >=${{ python_min }}
 
 tests:
